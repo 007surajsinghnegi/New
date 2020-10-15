@@ -1,0 +1,161 @@
+.lightBlue {
+    background-color: #3f51b5ba !important;
+}
+
+.tableContainer {
+    width: 90%;
+    margin: 40px auto;
+}
+
+.nav-bar-item {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.text-grey {
+    color: lightgray;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+@media only screen and (min-width: 768px) {
+    .appContainer {
+        min-height: 100vh;
+        background-color: #e7e2f9;
+    }
+
+    .appContainer > div {
+        width: 80%;
+        margin: auto;
+        background-color: white;
+        min-height: inherit;
+        box-shadow: 1px 0px 8px lightgrey;
+    }
+
+    .modalBox {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        background-color: white;
+        transform: translate(-50%, -50%);
+        min-width: unset !important;
+        max-width: 50vw;
+    }
+
+    .appContainer .MuiTableCell-root {
+        font-size: 14px !important;
+        padding: 16px !important;
+    }
+}
+
+.MuiContainer-root {
+  margin-top: 0 !important;
+  padding-top: 65px;
+}
+
+.center {
+    text-align: center;
+}
+
+.margin-top-20 {
+    margin-top: 40px;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.meta {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.modalBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: none;
+    outline: none;
+    padding: 1.5rem 5rem;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    min-width: 75vw;
+}
+
+.highlight {
+    font-weight: 900;
+    color: indianred;
+    background-color: #cd5c5c1f;
+    padding: 6px;
+}
+
+.nav-bar-item {
+    cursor: pointer;
+}
+
+.MuiTableCell-root {
+  padding: 16px 6px !important;
+  font-size: 12px !important;
+}
+
+.time-modal-container {
+    background: white;
+    padding: 2%;
+    width: 13vw;
+    min-height: 24vh;
+    top: calc(45vh - 11vh);
+    position: absolute;
+    left: calc(50vw - 7.5vw);
+}
+
+.Home{
+    height: 320px;
+    width: 320px;
+    margin: 7rem auto 0rem auto;
+    background: url(./Images/myflc.jpg) center/cover ;
+    position: relative;
+}
+
+.Home-Btn {
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    padding: 2.5rem 3rem;
+    border-radius: 50%;
+    background: radial-gradient(circle at 10px, rgba(63,81,181,1) 27%, rgba(85,101,190,1) 49%, rgba(102,117,196,1) 68%, rgba(112,126,200,1) 83%, rgba(140,151,211,1) 95%);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    transition: all 0.25s;
+}
+
+.Home-Btn:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border: 1px solid black;
+}
+
+.Home-Top{
+    top: -4rem;
+    left: 5rem;        
+}
+.Home-Bottom{
+    bottom: -4rem;
+    left: 4.25rem;    
+}
+.Home-Left{
+    top: 7rem;
+    left: -8rem;    
+}
+.Home-Right{
+    right: -8rem;
+    top: 7rem;
+}   
+
+.Red-Background{
+    background: radial-gradient(circle at 10px, rgba(204,0,0,1) 27%, rgba(226,70,70,1) 70%, rgba(244,130,130,1) 87%, rgba(255,164,164,1) 95%);
+}
